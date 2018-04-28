@@ -4,6 +4,7 @@ var SHA256 = require("crypto-js/sha256");
 
 Object.assign(module.exports,{
 	createTransaction,
+	createTransactionHash,
 	isValid,
 });
 

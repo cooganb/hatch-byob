@@ -1,11 +1,23 @@
 {
 	"name": "mychain-part2",
 	"version": "1.0.0",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"testMatch": [
+			"<rootDir>/tests/*.spec.js"
+		]
+	},
 	"dependencies": {
 		"crypto-js": "~3.1.9-1",
 		"eventemitter2": "~5.0.1",
 		"get-stream": "~3.0.0",
 		"minimist": "~1.2.0",
 		"node-fetch": "^2.1.2"
+	},
+	"devDependencies": {
+		"jest": "^22.4.3",
+		"mockdate": "^2.0.2"
 	}
 }

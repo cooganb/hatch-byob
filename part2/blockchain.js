@@ -7,6 +7,8 @@ Object.assign(module.exports,{
 	blocks: [ createGenesisBlock(), ],
 
 	addBlock,
+	createBlockHash,
+	blockIsValid,
 	isValid,
 	containsTransaction,
 });

@@ -7,6 +7,7 @@ Object.assign(module.exports,{
 
 	addBlock,
 	print,
+	createBlockHash,
 	isValid,
 });
 
